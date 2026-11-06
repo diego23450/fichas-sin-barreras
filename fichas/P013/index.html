@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ficha de apoyo · P013</title>
+<style>
+  :root { --azul:#1f4e79; --rojo:#b3261e; --fondo:#f3f6fa; --texto:#1b1b1b; --suave:#5b6470; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+         background:var(--fondo); color:var(--texto); font-size:18px; line-height:1.45; }
+  .wrap { max-width:560px; margin:0 auto; padding:16px; }
+  header { background:var(--azul); color:#fff; border-radius:14px; padding:18px 18px 16px; }
+  header .org { font-size:14px; opacity:.85; letter-spacing:.3px; }
+  header h1 { margin:6px 0 4px; font-size:26px; line-height:1.2; }
+  header .id { display:inline-block; background:rgba(255,255,255,.18); border-radius:20px;
+               padding:2px 12px; font-size:14px; font-weight:600; }
+  .card { background:#fff; border-radius:14px; padding:16px 18px; margin-top:14px;
+          box-shadow:0 1px 3px rgba(0,0,0,.08); }
+  .card h2 { margin:0 0 8px; font-size:15px; text-transform:uppercase; letter-spacing:.6px; color:var(--suave); }
+  .emergencia { border:3px solid var(--rojo); }
+  .emergencia h2 { color:var(--rojo); }
+  .contacto { font-size:20px; font-weight:600; }
+  .rel { color:var(--suave); font-size:16px; }
+  .tel { display:block; margin-top:10px; background:var(--rojo); color:#fff; text-decoration:none;
+         text-align:center; font-size:26px; font-weight:700; padding:14px; border-radius:12px; }
+  .tel .ico { margin-right:6px; }
+  .sub { text-align:center; color:var(--suave); font-size:14px; margin:6px 0 0; }
+  .guia ol { margin:0; padding-left:22px; }
+  .guia li { margin-bottom:6px; }
+  .ni { color:#8a8f98; font-style:italic; }
+  .tel.ni { background:#eceff3; color:#5b6470; font-size:20px; }
+  .alerta { background:#fff4e5; border:2px solid #e8a33d; border-radius:12px; padding:12px 14px;
+            margin-top:14px; font-weight:600; }
+  footer { color:var(--suave); font-size:13px; text-align:center; margin:18px 0 8px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="org">Fundación Sin Barreras · Ficha de apoyo</div>
+    <h1>Isidora Montserrat Álvarez Riquelme</h1>
+    <span class="id">ID P013</span>
+  </header>
+  
+  <section class="card emergencia" aria-label="Contacto de emergencia">
+    <h2>Contacto de emergencia</h2>
+    <div class="contacto">Felipe Álvarez Godoy</div>
+    <div class="rel">Padre</div>
+    <a class="tel" href="tel:+56955500113"><span class="ico" aria-hidden="true">&#9742;</span> +56 9 5550 0113</a><p class="sub">Toque el número para llamar</p>
+  </section>
+  <section class="card guia" aria-label="Orientación">
+    <h2>Si encuentra a esta persona</h2>
+    <ol>
+      <li>Mantenga la calma y acérquese de frente, hablando en voz baja.</li>
+      <li>Preséntese y explique lo que va a hacer antes de hacerlo.</li>
+      <li>Llame al contacto de emergencia indicado arriba.</li>
+      <li>Acompañe a la persona en un lugar seguro y tranquilo hasta que llegue su contacto.</li>
+      <li>Si hay riesgo para su salud o seguridad, llame al <strong>131</strong> (SAMU) o al <strong>133</strong> (Carabineros).</li>
+    </ol>
+  </section>
+  <section class="card" aria-label="Cómo apoyar">
+    <h2>Cómo apoyar</h2>
+    <p style="margin:0 0 8px">Evitar luces intensas y aglomeraciones</p>
+    <p style="margin:0" class="rel">Se comunica bien por escrito</p>
+  </section>
+  <section class="card" aria-label="Dirección de referencia">
+    <h2>Sector de referencia</h2>
+    <p style="margin:0">Sector Pedro de Valdivia, Concepción</p>
+  </section>
+  <footer>
+    Prototipo académico con datos ficticios · Actualizada: 2026-11-05 22:17:07
+  </footer>
+</main>
+</body>
+</html>
